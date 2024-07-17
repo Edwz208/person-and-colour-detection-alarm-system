@@ -10,4 +10,15 @@ When signal message "1" is received, the buzzer will play a brief melody.
 
 Cooldowns on the HTTP GET request are in place to prevent spam of requests
 
+YOLO files taken from https://pjreddie.com/darknet/yolo/, uses v3. Make sure to download the cfg, weights, and names files and place in same folder as the .py file. 
+Add the file location into the python script. 
+
+```
+@misc{darknet13,
+  author =   {Joseph Redmon},
+  title =    {Darknet: Open Source Neural Networks in C},
+  howpublished = {\url{http://pjreddie.com/darknet/}},
+  year = {2013--2016}
+}
+```
 
